@@ -2,7 +2,7 @@
 
 using namespace std;
 
-double square(double x);
+double square(double);
 void print_square(double);
 
 int main() {
