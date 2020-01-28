@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{1160FD5E-9E47-4C20-81D5-30B31A2B1A94}</ProjectGuid>
-    <RootNamespace>Chapter3Start</RootNamespace>
+    <ProjectGuid>{B1F7FF1D-6D0D-4D88-A49F-72C107B9736F}</ProjectGuid>
+    <RootNamespace>Chapter3Namespaces</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,11 +138,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Vector.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="user.cpp" />
-    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

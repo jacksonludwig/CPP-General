@@ -1,4 +1,4 @@
-#include "Vector.h"
+// import Vector; if the Vector module was working, you would import here instead of #include a header!
 #include <cmath>
 
 double sqrt_sum(Vector& v) {
@@ -7,4 +7,8 @@ double sqrt_sum(Vector& v) {
 		sum += std::sqrt(v[i]);
 	}
 	return sum; // sum of square roots
+}
+
+int main() {
+	return 0;
 }
